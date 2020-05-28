@@ -1,0 +1,103 @@
+{
+ "IR":
+  {
+     "soma": {
+       "seq1": { 
+     	 "voltage_base_variance": {
+     	   "mean": 0.0,
+     	   "std": 0.1 ,
+     	   "useInCrowd": "false",
+     	   "weight": 1.0,
+     	   "stim_start": 500.0,
+     	   "stim_end": 700.0
+     	 },
+     	 "voltage_base":{
+     	   "mean": -84.0,
+     	   "std": 6.0,
+     	   "useInCrowd": "true",
+     	   "weight": 1.0,
+     	   "stim_start": 500.0,
+     	   "stim_end": 700.0
+     	 },
+     	 "ohmic_IR": {
+     	   "mean": 1025.0,
+     	   "std": 125.0,
+     	   "useInCrowd": "true",
+     	   "weight": 1.0,
+     	   "stim_start": 500.0,
+     	   "stim_end": 700.0
+     	 } 
+      }
+    }
+  },  
+  "ramp":
+  {
+    "soma": {
+       "seq1": { 
+     	 "time_to_first_spike": {
+     	   "mean": 245.0,
+     	   "std": 126.0,
+     	   "useInCrowd": "true",
+     	   "weight": 1.0,
+     	   "stim_start": 500.0,
+     	   "stim_end": 1500.0
+     	 }
+      } 
+    }  
+  }, 
+  "rheobase50":
+  {
+    "soma": {
+       "seq1": { 
+ 	    "firing_rate": {
+ 	       "mean": 6,
+ 	       "std": 4,
+ 	       "useInCrowd": "true",
+ 	       "weight": 1.0,
+ 	       "stim_start": 500.0,
+ 	       "stim_end": 2500.0
+ 	     }, 
+ 	    "AP_height": {
+ 	       "mean": 27,
+ 	       "std": 10,
+ 	       "useInCrowd": "false",
+ 	       "weight": 1.0,
+ 	       "stim_start": 500.0,
+ 	       "stim_end": 2500.0
+ 	     } 
+ 	 }
+     }
+  },
+  "rheobase100":
+  {
+    "soma": {
+       "seq1": { 
+     	 "time_to_first_spike": {
+     	   "mean": 400.0,
+     	   "std": 350.0,
+     	   "useInCrowd": "true",
+     	   "weight": 1.0,
+     	   "stim_start": 500.0,
+     	   "stim_end": 1500.0
+     	 },
+   	   "firing_rate": {
+   	     "mean": 12.0,
+   	     "std": 8.0,
+   	     "useInCrowd": "true",
+   	     "weight": 1.0,
+   	     "stim_start": 500.0,
+   	     "stim_end": 2500.0
+   	   }, 
+ 	    "AHP_depth_abs": {
+ 	       "mean": -50,
+ 	       "std": 10,
+ 	       "useInCrowd": "true",
+ 	       "weight": 1.0,
+ 	       "stim_start": 500.0,
+ 	       "stim_end": 2500.0
+ 	     } 
+   	 }
+      }  
+  } 
+}
+
