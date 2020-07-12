@@ -6,13 +6,14 @@ Link to the full paper: https://www.biorxiv.org/content/10.1101/2020.06.01.12803
 # Study Highlights 
 
 What is the current knowledge of the topic?
+
 Pre-clinically, potential drug candidates are screened for alleviation of certain in vitro electrophysiological features. Population based modeling is widely used to represent intrinsic variability of these features. However, the means by which these drugs can address recovery in terms of divergence of a heterogenous population is neglected and unexplored.
 
 What question did this study address?
 
 Can computational models of striatal medium spiny neurons, which capture statistical relations between electrophysiological features of Wild-type and Huntington’s Disease phenotypes, and their respective model parameter sets provide a direction of ion channel target modulation for phenotypic recovery across a heterogenous population?
 
-What does thi study add to our knowledge?
+What does this study add to our knowledge?
 
 The methods presented here help identify ‘one’ virtual drug or a profile of target modulations that transform disease phenotypes to healthy phenotypes in terms of both heterogeneity and divergence of the model population.
 
