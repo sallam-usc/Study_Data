@@ -1,6 +1,7 @@
 # Neuronal Population Models Reveal Specific Linear Conductance Controllers Sufficient to Rescue Preclinical Disease Phenotypes
 We show how different methods based on classical ML algorithms and heuristics are used to identify unique parameteric transformations to match multivariate distributions in feature space. 
 Specifically we applied these frameworks within the context of identifying a unique ion channel target (parameter) modulation that could reveal.
+
 Link to the full paper: https://www.biorxiv.org/content/10.1101/2020.06.01.128033v1.full
 
 # Study Highlights 
